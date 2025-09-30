@@ -1,0 +1,5 @@
+{
+  "name": "Aether Studio — The Cinematic Strategist",
+  "description": "A creative assistant that transforms raw story input into timestamped cinematic blueprints, Suno v5 scoring prompts, and image/concept frame prompts using the Gemini API.",
+  "requestFramePermissions": []
+}
