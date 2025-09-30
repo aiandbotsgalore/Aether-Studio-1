@@ -1,21 +1,43 @@
-<script type="importmap">
-{
-  "imports": {
-    "rxjs": "https://aistudiocdn.com/rxjs@^7.8.2?conditions=es2015",
-    "rxjs/operators": "https://aistudiocdn.com/rxjs@^7.8.2/operators?conditions=es2015",
-    "rxjs/ajax": "https://aistudiocdn.com/rxjs@^7.8.2/ajax?conditions=es2015",
-    "rxjs/webSocket": "https://aistudiocdn.com/rxjs@^7.8.2/webSocket?conditions=es2015",
-    "rxjs/testing": "https://aistudiocdn.com/rxjs@^7.8.2/testing?conditions=es2015",
-    "rxjs/fetch": "https://aistudiocdn.com/rxjs@^7.8.2/fetch?conditions=es2015",
-    "@angular/compiler": "https://next.esm.sh/@angular/compiler@^20.3.2?external=rxjs",
-    "@angular/platform-browser": "https://next.esm.sh/@angular/platform-browser@^20.3.2?external=rxjs",
-    "@angular/core": "https://next.esm.sh/@angular/core@^20.3.2?external=rxjs",
-    "@angular/common/http": "https://next.esm.sh/@angular/common@^20.3.2/http?external=rxjs",
-    "@angular/core/rxjs-interop": "https://next.esm.sh/@angular/core@^20.3.2/rxjs-interop?external=rxjs",
-    "@angular/forms": "https://next.esm.sh/@angular/forms@^20.3.2?external=rxjs",
-    "@angular/common": "https://next.esm.sh/@angular/common@^20.3.2?external=rxjs",
-    "@google/genai": "https://next.esm.sh/@google/genai@^1.21.0?external=rxjs"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aether Studio — The Cinematic Strategist</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #111827; /* bg-gray-900 */
+    }
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "rxjs": "https://aistudiocdn.com/rxjs@^7.8.2?conditions=es2015",
+      "rxjs/operators": "https://aistudiocdn.com/rxjs@^7.8.2/operators?conditions=es2015",
+      "rxjs/ajax": "https://aistudiocdn.com/rxjs@^7.8.2/ajax?conditions=es2015",
+      "rxjs/webSocket": "https://aistudiocdn.com/rxjs@^7.8.2/webSocket?conditions=es2015",
+      "rxjs/testing": "https://aistudiocdn.com/rxjs@^7.8.2/testing?conditions=es2015",
+      "rxjs/fetch": "https://aistudiocdn.com/rxjs@^7.8.2/fetch?conditions=es2015",
+      "@angular/compiler": "https://next.esm.sh/@angular/compiler@^20.3.2?external=rxjs",
+      "@angular/platform-browser": "https://next.esm.sh/@angular/platform-browser@^20.3.2?external=rxjs",
+      "@angular/core": "https://next.esm.sh/@angular/core@^20.3.2?external=rxjs",
+      "@angular/common/http": "https://next.esm.sh/@angular/common@^20.3.2/http?external=rxjs",
+      "@angular/core/rxjs-interop": "https://next.esm.sh/@angular/core@^20.3.2/rxjs-interop?external=rxjs",
+      "@angular/forms": "https://next.esm.sh/@angular/forms@^20.3.2?external=rxjs",
+      "@angular/common": "https://next.esm.sh/@angular/common@^20.3.2?external=rxjs",
+      "@google/genai": "https://next.esm.sh/@google/genai@^1.21.0?external=rxjs"
+    }
   }
-}
-</script>
-full contents of index.html<link rel="stylesheet" href="/index.css">
+  </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <app-root>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif; color: #9CA3AF;">
+      Loading Aether Studio...
+    </div>
+  </app-root>
+  <script type="module" src="index.tsx"></script>
+</body>
+</html>
